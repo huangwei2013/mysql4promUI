@@ -1,0 +1,25 @@
+url-path = ""
+http-host="localhost"
+http-port="18082"
+
+cache-mode = 1
+debug=true
+
+# 应用系统设置
+[setting]
+    logpath = "."
+
+# 数据库连接
+[database]
+   [[database.default]]
+        host     = "数据库IP"
+        port     = "数据库端口"
+        user     = "数据库账号"
+        pass     = "数据库密码"
+        name     = "my"
+        type     = "mysql"
+        role     = "master"
+        charset  = "utf8"
+        priority = "1"
+        Stdout = true
+        debug  = true
